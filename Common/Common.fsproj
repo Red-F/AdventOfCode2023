@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Regex.fs" />
+        <Compile Include="Matrix.fs" />
+        <Compile Include="Manhattan.fs" />
+        <Compile Include="ShortestPath.fs" />
+        <Compile Include="Combination.fs" />
+    </ItemGroup>
+
+</Project>
