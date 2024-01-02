@@ -11,6 +11,7 @@
         <Compile Include="Manhattan.fs" />
         <Compile Include="ShortestPath.fs" />
         <Compile Include="Combination.fs" />
+        <Compile Include="Print.fs" />
     </ItemGroup>
 
 </Project>
