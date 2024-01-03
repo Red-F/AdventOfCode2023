@@ -1,5 +1,4 @@
 ﻿
-open System
 open System.IO
 
 type TileType = Invalid = '\x00' | Earth = '.' | Start = 'S' | Vertical = '│' | Horizontal = '―' | NorthToEast = '└' | NorthToWest = '┘' | SouthToWest = '┐' | SouthToEast = '┌'
@@ -16,6 +15,3 @@ let printMap (m: TileType array2d) =
         printfn ""
     
 printMap z
-
-// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
