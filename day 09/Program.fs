@@ -14,5 +14,5 @@ let part1 = data |> Seq.map (differences []) |> Seq.map (fun x -> projections x 
 let part2 = data |> Seq.map (differences []) |> Seq.map (fun x -> projections x |> fst) |> Seq.sum
 
 
-printfn $"day 7, part 1: %d{part1}"
-printfn $"day 7, part 2: %d{part2}"
+printfn $"day 9, part 1: %d{part1}"
+printfn $"day 9, part 2: %d{part2}"

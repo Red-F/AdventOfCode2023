@@ -22,5 +22,5 @@ let rec leastCommonMultipleOfList (numbers: int64 list) = match numbers with | [
     
 let part2 = startElements |> Seq.map (traceGhost 0L) |> Seq.toList |> leastCommonMultipleOfList
 
-printfn $"day 7, part 1: %d{part1}"
-printfn $"day 7, part 2: %d{part2}"
+printfn $"day 8, part 1: %d{part1}"
+printfn $"day 8, part 2: %d{part2}"
